@@ -1,5 +1,6 @@
 package com.inzenjer.automaticdoorlock;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,7 +25,7 @@ public class ActivityRegister extends Fragment implements AdapterView.OnItemSele
         Spinner spin=(Spinner)rootView.findViewById(R.id.spi);
         spin.setOnItemSelectedListener(this);
 
-        ArrayAdapter aa=new ArrayAdapter(this,android.R.layout.simple_spinner_item,choose);
+        ArrayAdapter aa=new ArrayAdapter(getContext(),android.R.layout.simple_spinner_item,choose);
         aa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spin.setAdapter(aa);
         return rootView;
