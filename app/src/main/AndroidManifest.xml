@@ -21,7 +21,8 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Login_login"></activity>
+        <activity android:name=".Login_login" />
+        <activity android:name=".ActivityRegister"></activity>
     </application>
 
 </manifest>

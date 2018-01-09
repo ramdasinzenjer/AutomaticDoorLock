@@ -130,6 +130,11 @@ public class MainActivity extends AppCompatActivity {
                 case 0:
                     Login_login tab1=new Login_login();
                     return tab1;
+
+                case 1:
+                    ActivityRegister tab2=new ActivityRegister();
+                    return tab2;
+
                 default:
                     return null;
             }
@@ -138,7 +143,18 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 1;
+            return 2;
+        }
+
+        public CharSequence getPageTitle(int position){
+            switch (position){
+                case 0:
+                    return "Login";
+
+                case 1:
+                    return "Register";
+            }
+            return null;
         }
     }
 }
