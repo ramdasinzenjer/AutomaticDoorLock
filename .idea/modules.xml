@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AutomaticDoorLock.iml" filepath="$PROJECT_DIR$/.idea/AutomaticDoorLock.iml" />
+      <module fileurl="file://C:\Users\Sreelekshmi\AndroidStudioProjects\AutomaticDoorLock\.idea\AutomaticDoorLock.iml" filepath="C:\Users\Sreelekshmi\AndroidStudioProjects\AutomaticDoorLock\.idea\AutomaticDoorLock.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Sreelekshmi\AndroidStudioProjects\AutomaticDoorLock\app\app.iml" filepath="C:\Users\Sreelekshmi\AndroidStudioProjects\AutomaticDoorLock\app\app.iml" />
     </modules>
   </component>
 </project>
